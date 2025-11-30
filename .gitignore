@@ -1,0 +1,38 @@
+############################
+# STM32CubeIDE / Eclipse
+############################
+.settings/
+.metadata/
+RemoteSystemsTempFiles/
+.vscode/
+
+############################
+# Build output / binaries
+############################
+Debug/
+Release/
+build/
+*.o
+*.d
+*.elf
+*.map
+*.bin
+*.hex
+*.srec
+
+############################
+# CubeMX generated backups
+############################
+*.ioc-backup
+*.launch
+
+############################
+# Editor/OS temp files
+############################
+*~
+*.swp
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+desktop.ini
