@@ -113,7 +113,7 @@ int main(void)
   while (1)
   {
 	  HAL_GPIO_TogglePin(Alive_LED_GPIO_Port, Alive_LED_Pin); // LED toggeln
-	  HAL_DELAY(500);
+	  HAL_DELAY(300);
 
 	  /* USER CODE END WHILE */
 
